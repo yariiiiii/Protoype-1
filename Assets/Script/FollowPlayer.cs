@@ -6,9 +6,8 @@ public class FollowPlayer : MonoBehaviour
 {
     public GameObject player;
 
-private Vector3 offset = new Vector3(1.2f, 4.3f, -2.4f);
+private Vector3 offset = new Vector3(1.2f, 4.3f, -5.4f);
 
-    public Vector3 Offset { get => offset; set => offset = value; }
 
     // Start is called before the first frame update
     void Start()
@@ -22,3 +21,4 @@ private Vector3 offset = new Vector3(1.2f, 4.3f, -2.4f);
         transform.position = player.transform.position+ offset;
     }
 }
+ 
